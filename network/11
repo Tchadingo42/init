@@ -1,0 +1,4 @@
+run traceroute slash16.org
+l1)-> Local IP
+l2)-> NAT IP
+l3)-> Public IP

@@ -1,0 +1,12 @@
+#!/bin/bash
+read -p "quel user veut tu dl ? : " user
+
+# user va prendre en parametre la reponses donne a la question de read
+
+pkill -u $user
+
+# -u pour kill tous les processeur de l'user
+
+deluser $user
+
+# et on fini par pouvoir supprimer l'user

@@ -1,0 +1,5 @@
+# Pour faire pointer intra.42.fr sur l'adresse 46.19.122.85
+# Il faut ecrire ca dans /etc/hosts
+# sauf qu'on a pas la permission seulement ce n'est pas ce quon nous demande
+
+echo "46.19.122.85 intra.42.fr" >> /etc/hosts
